@@ -29,7 +29,7 @@ sudo tar xf apache-maven-3.9.6-bin.tar.gz -C /opt  &> /dev/null
 sudo ln -s /opt/apache-maven-3.9.6 /opt/maven  &> /dev/null
 
 # Configure environment variables
-sudo cp "$original_dir/env_var" /etc/profile.d/maven.sh 
+sudo cp "$original_dir/setting_up_env_var" /etc/profile.d/maven.sh 
 
 # Make the script executable
 sudo chmod +x /etc/profile.d/maven.sh
