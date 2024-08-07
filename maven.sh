@@ -27,6 +27,7 @@ sudo tar xf apache-maven-3.9.6-bin.tar.gz -C /opt  &> /dev/null
 
 # Create a symbolic link for Maven
 sudo ln -s /opt/apache-maven-3.9.6 /opt/maven  &> /dev/null
+sudo ln -s /opt/maven/bin/mvn /usr/local/bin/mvn &> /dev/null
 
 # Configure environment variables
 sudo cp "$original_dir/setting_up_env_var" /etc/profile.d/maven.sh 
