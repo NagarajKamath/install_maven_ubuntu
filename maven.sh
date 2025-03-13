@@ -3,8 +3,8 @@
 original_dir=$(pwd)
 echo "Checking and installing necessary packages. This may take sometimes..."
 # Update and upgrade packages
-sudo apt update  &> /dev/null
-sudo apt upgrade -y  &> /dev/null
+#sudo apt update -y  &> /dev/null
+#sudo apt upgrade -y  &> /dev/null
 
 # Install OpenJDK 17
 # Check if Java 17 or above is already installed
